@@ -1,7 +1,32 @@
-{% extends 'blog/base.html' %}		
+{% extends 'blog/base.html' %}
 
 	{% block content %}
-		<h1>About JonNormandy</h1>
-		<p>Systems techncian located in the Paris of Oklahoma.</p>
-		<p>Lover of bacon.</p>
+	<div class="row">
+		<div class="col-sm-4 col-md-4 col-lg-4">
+			<img
+                	src="/static/img/getinbelly.jpg"
+                	alt="me enjoying some delicious breakfast"
+                	style="
+                    	border-radius: 10px 10px 10px 10px;
+                    	display: align;
+                    	margin-left: auto;
+                    	margin-right: 10px;
+                    	max-width: 100%;
+                    	max-height: 100%;
+            		"/>
+						<h2>Howdy, I'm Jon!</h2>
+		</div>
+		<div class="col-sm-8 col-md-8 col-lg-8">
+			<h1></h1>
+			<p>
+				I am a SysAdmin located in the Paris of Oklahoma.
+				I love bacon, and all things breakfast related.
+				My professional experience includes managing AD, SCCM, Win 7, Win 10, Server 2008, Server 2012 r2, Altigen & Cisco VOIP networks.  I spend a lot of time personally in the linux world, particulary Ubuntu and Fedora.  I'm currently working to learn all the things in cluding but not limited to: Python, Django, Docker.
+				The site is currently built using Python & Django.
+
+			</p>
+		</div>
+		
+	</div>
+
 	{% endblock %}
